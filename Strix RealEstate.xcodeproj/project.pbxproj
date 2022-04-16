@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F1B872280B3E750065C67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B871280B3E750065C67E /* AppDelegate.swift */; };
+		76F1B874280B3E750065C67E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B873280B3E750065C67E /* SceneDelegate.swift */; };
+		76F1B876280B3E750065C67E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B875280B3E750065C67E /* ViewController.swift */; };
+		76F1B879280B3E750065C67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1B877280B3E750065C67E /* Main.storyboard */; };
+		76F1B87B280B3E790065C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F1B87A280B3E790065C67E /* Assets.xcassets */; };
+		76F1B87E280B3E790065C67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1B87C280B3E790065C67E /* LaunchScreen.storyboard */; };
+		76F1B889280B3E7A0065C67E /* Strix_RealEstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B888280B3E7A0065C67E /* Strix_RealEstateTests.swift */; };
+		76F1B893280B3E7A0065C67E /* Strix_RealEstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B892280B3E7A0065C67E /* Strix_RealEstateUITests.swift */; };
+		76F1B895280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B894280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F1B885280B3E7A0065C67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F1B866280B3E750065C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F1B86D280B3E750065C67E;
+			remoteInfo = "Strix RealEstate";
+		};
+		76F1B88F280B3E7A0065C67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F1B866280B3E750065C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F1B86D280B3E750065C67E;
+			remoteInfo = "Strix RealEstate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76F1B86E280B3E750065C67E /* Strix RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strix RealEstate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F1B871280B3E750065C67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76F1B873280B3E750065C67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76F1B875280B3E750065C67E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76F1B878280B3E750065C67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F1B87A280B3E790065C67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F1B87D280B3E790065C67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F1B87F280B3E790065C67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F1B884280B3E7A0065C67E /* Strix RealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strix RealEstateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F1B888280B3E7A0065C67E /* Strix_RealEstateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strix_RealEstateTests.swift; sourceTree = "<group>"; };
+		76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strix RealEstateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F1B892280B3E7A0065C67E /* Strix_RealEstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strix_RealEstateUITests.swift; sourceTree = "<group>"; };
+		76F1B894280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strix_RealEstateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F1B86B280B3E750065C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B881280B3E7A0065C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B88B280B3E7A0065C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F1B865280B3E750065C67E = {
+			isa = PBXGroup;
+			children = (
+				76F1B870280B3E750065C67E /* Strix RealEstate */,
+				76F1B887280B3E7A0065C67E /* Strix RealEstateTests */,
+				76F1B891280B3E7A0065C67E /* Strix RealEstateUITests */,
+				76F1B86F280B3E750065C67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F1B86F280B3E750065C67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B86E280B3E750065C67E /* Strix RealEstate.app */,
+				76F1B884280B3E7A0065C67E /* Strix RealEstateTests.xctest */,
+				76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F1B870280B3E750065C67E /* Strix RealEstate */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B871280B3E750065C67E /* AppDelegate.swift */,
+				76F1B873280B3E750065C67E /* SceneDelegate.swift */,
+				76F1B875280B3E750065C67E /* ViewController.swift */,
+				76F1B877280B3E750065C67E /* Main.storyboard */,
+				76F1B87A280B3E790065C67E /* Assets.xcassets */,
+				76F1B87C280B3E790065C67E /* LaunchScreen.storyboard */,
+				76F1B87F280B3E790065C67E /* Info.plist */,
+			);
+			path = "Strix RealEstate";
+			sourceTree = "<group>";
+		};
+		76F1B887280B3E7A0065C67E /* Strix RealEstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B888280B3E7A0065C67E /* Strix_RealEstateTests.swift */,
+			);
+			path = "Strix RealEstateTests";
+			sourceTree = "<group>";
+		};
+		76F1B891280B3E7A0065C67E /* Strix RealEstateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B892280B3E7A0065C67E /* Strix_RealEstateUITests.swift */,
+				76F1B894280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift */,
+			);
+			path = "Strix RealEstateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F1B86D280B3E750065C67E /* Strix RealEstate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F1B898280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstate" */;
+			buildPhases = (
+				76F1B86A280B3E750065C67E /* Sources */,
+				76F1B86B280B3E750065C67E /* Frameworks */,
+				76F1B86C280B3E750065C67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strix RealEstate";
+			productName = "Strix RealEstate";
+			productReference = 76F1B86E280B3E750065C67E /* Strix RealEstate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F1B883280B3E7A0065C67E /* Strix RealEstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F1B89B280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateTests" */;
+			buildPhases = (
+				76F1B880280B3E7A0065C67E /* Sources */,
+				76F1B881280B3E7A0065C67E /* Frameworks */,
+				76F1B882280B3E7A0065C67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F1B886280B3E7A0065C67E /* PBXTargetDependency */,
+			);
+			name = "Strix RealEstateTests";
+			productName = "Strix RealEstateTests";
+			productReference = 76F1B884280B3E7A0065C67E /* Strix RealEstateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76F1B88D280B3E7A0065C67E /* Strix RealEstateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F1B89E280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateUITests" */;
+			buildPhases = (
+				76F1B88A280B3E7A0065C67E /* Sources */,
+				76F1B88B280B3E7A0065C67E /* Frameworks */,
+				76F1B88C280B3E7A0065C67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F1B890280B3E7A0065C67E /* PBXTargetDependency */,
+			);
+			name = "Strix RealEstateUITests";
+			productName = "Strix RealEstateUITests";
+			productReference = 76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F1B866280B3E750065C67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					76F1B86D280B3E750065C67E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					76F1B883280B3E7A0065C67E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 76F1B86D280B3E750065C67E;
+					};
+					76F1B88D280B3E7A0065C67E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 76F1B86D280B3E750065C67E;
+					};
+				};
+			};
+			buildConfigurationList = 76F1B869280B3E750065C67E /* Build configuration list for PBXProject "Strix RealEstate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F1B865280B3E750065C67E;
+			productRefGroup = 76F1B86F280B3E750065C67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F1B86D280B3E750065C67E /* Strix RealEstate */,
+				76F1B883280B3E7A0065C67E /* Strix RealEstateTests */,
+				76F1B88D280B3E7A0065C67E /* Strix RealEstateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F1B86C280B3E750065C67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1B87E280B3E790065C67E /* LaunchScreen.storyboard in Resources */,
+				76F1B87B280B3E790065C67E /* Assets.xcassets in Resources */,
+				76F1B879280B3E750065C67E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B882280B3E7A0065C67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B88C280B3E7A0065C67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F1B86A280B3E750065C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1B876280B3E750065C67E /* ViewController.swift in Sources */,
+				76F1B872280B3E750065C67E /* AppDelegate.swift in Sources */,
+				76F1B874280B3E750065C67E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B880280B3E7A0065C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1B889280B3E7A0065C67E /* Strix_RealEstateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1B88A280B3E7A0065C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1B893280B3E7A0065C67E /* Strix_RealEstateUITests.swift in Sources */,
+				76F1B895280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76F1B886280B3E7A0065C67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F1B86D280B3E750065C67E /* Strix RealEstate */;
+			targetProxy = 76F1B885280B3E7A0065C67E /* PBXContainerItemProxy */;
+		};
+		76F1B890280B3E7A0065C67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F1B86D280B3E750065C67E /* Strix RealEstate */;
+			targetProxy = 76F1B88F280B3E7A0065C67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76F1B877280B3E750065C67E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F1B878280B3E750065C67E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F1B87C280B3E790065C67E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F1B87D280B3E790065C67E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F1B896280B3E7A0065C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76F1B897280B3E7A0065C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F1B899280B3E7A0065C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strix RealEstate/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76F1B89A280B3E7A0065C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strix RealEstate/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76F1B89C280B3E7A0065C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strix RealEstate.app/Strix RealEstate";
+			};
+			name = Debug;
+		};
+		76F1B89D280B3E7A0065C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strix RealEstate.app/Strix RealEstate";
+			};
+			name = Release;
+		};
+		76F1B89F280B3E7A0065C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Strix RealEstate";
+			};
+			name = Debug;
+		};
+		76F1B8A0280B3E7A0065C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Strix RealEstate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F1B869280B3E750065C67E /* Build configuration list for PBXProject "Strix RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1B896280B3E7A0065C67E /* Debug */,
+				76F1B897280B3E7A0065C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F1B898280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1B899280B3E7A0065C67E /* Debug */,
+				76F1B89A280B3E7A0065C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F1B89B280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1B89C280B3E7A0065C67E /* Debug */,
+				76F1B89D280B3E7A0065C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F1B89E280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1B89F280B3E7A0065C67E /* Debug */,
+				76F1B8A0280B3E7A0065C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F1B866280B3E750065C67E /* Project object */;
+}
