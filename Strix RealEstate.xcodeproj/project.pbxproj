@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7618C013284003C900D09EF1 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7618C011284003C900D09EF1 /* DetailsCollectionViewCell.swift */; };
+		7618C014284003C900D09EF1 /* DetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7618C012284003C900D09EF1 /* DetailsCollectionViewCell.xib */; };
+		76485B2028229C2B00373CAB /* ProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76485B1F28229C2B00373CAB /* ProjectVC.swift */; };
+		764FF0E628296B6E00DD81B3 /* EstateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764FF0E528296B6E00DD81B3 /* EstateProfileVC.swift */; };
+		766443AA280C94D800B7097E /* VerifyingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766443A9280C94D800B7097E /* VerifyingVC.swift */; };
+		766443AE280CA92900B7097E /* ZoneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766443AC280CA92800B7097E /* ZoneCollectionViewCell.swift */; };
+		766443AF280CA92900B7097E /* ZoneCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 766443AD280CA92900B7097E /* ZoneCollectionViewCell.xib */; };
+		766443B3280DA30E00B7097E /* AllEstatesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 766443B1280DA30E00B7097E /* AllEstatesCollectionViewCell.xib */; };
+		766443B4280DA30E00B7097E /* AllEstatesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766443B2280DA30E00B7097E /* AllEstatesCollectionViewCell.swift */; };
+		7676E69E284FF1F600CE4102 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676E69D284FF1F600CE4102 /* TabBarVC.swift */; };
+		7684F4042814997000330925 /* HomeProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684F4022814997000330925 /* HomeProjectCollectionViewCell.swift */; };
+		7684F4052814997000330925 /* HomeProjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7684F4032814997000330925 /* HomeProjectCollectionViewCell.xib */; };
+		768F5EEC2842A5390008147A /* AZSocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F5EEB2842A5390008147A /* AZSocialButton.swift */; };
+		769BDEA2283961210032459C /* SelectProjectorZoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769BDEA1283961210032459C /* SelectProjectorZoneVC.swift */; };
+		769BDEA4283967450032459C /* XUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769BDEA3283967450032459C /* XUpload.swift */; };
+		769FF15028213E2800ED9AF7 /* MyPropertiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769FF14F28213E2800ED9AF7 /* MyPropertiesVC.swift */; };
+		76A5E3412833E32E0031314D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5E3402833E32E0031314D /* API.swift */; };
+		76B8DB5F284BC9DB00F53CCF /* AboutUsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8DB5E284BC9DB00F53CCF /* AboutUsVc.swift */; };
+		76B8DB61284BDCB100F53CCF /* AllEstatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8DB60284BDCB100F53CCF /* AllEstatesVC.swift */; };
+		76C0E3372815DEFE005DD564 /* SearchProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0E3352815DEFE005DD564 /* SearchProjectCollectionViewCell.swift */; };
+		76C0E3382815DEFE005DD564 /* SearchProjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C0E3362815DEFE005DD564 /* SearchProjectCollectionViewCell.xib */; };
+		76C16C3428284F7E00D77BEA /* AddPropertiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C16C3328284F7E00D77BEA /* AddPropertiesVC.swift */; };
+		76C16C382828544B00D77BEA /* PropertiesImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C16C362828544B00D77BEA /* PropertiesImagesCollectionViewCell.swift */; };
+		76C16C392828544B00D77BEA /* PropertiesImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C16C372828544B00D77BEA /* PropertiesImagesCollectionViewCell.xib */; };
+		76C19A062826F52E0024DBBF /* EstateSheetViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C19A052826F52E0024DBBF /* EstateSheetViewVC.swift */; };
+		76C32D322849247500BA8BA7 /* EnterNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C32D312849247500BA8BA7 /* EnterNameVC.swift */; };
+		76CA876628217F660010C410 /* MyPropertiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA876428217F660010C410 /* MyPropertiesTableViewCell.swift */; };
+		76CA876728217F660010C410 /* MyPropertiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CA876528217F660010C410 /* MyPropertiesTableViewCell.xib */; };
+		76CA876928218B290010C410 /* SavedVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA876828218B290010C410 /* SavedVCViewController.swift */; };
+		76CA876B28218D3F0010C410 /* ZoneAllProjectsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA876A28218D3F0010C410 /* ZoneAllProjectsVc.swift */; };
+		76CA876F2821912A0010C410 /* AllProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA876D2821912A0010C410 /* AllProjectsTableViewCell.swift */; };
+		76CA87702821912A0010C410 /* AllProjectsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CA876E2821912A0010C410 /* AllProjectsTableViewCell.xib */; };
+		76CA8772282196710010C410 /* GoToSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA8771282196710010C410 /* GoToSearchVC.swift */; };
+		76D0A148283D3D6F00B5CB96 /* SelectionMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0A147283D3D6F00B5CB96 /* SelectionMapVC.swift */; };
+		76D0A14A283D639F00B5CB96 /* SavedEstateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0A149283D639F00B5CB96 /* SavedEstateVC.swift */; };
+		76DC1824281F343B00A46A3C /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1823281F343B00A46A3C /* MyProfileVC.swift */; };
+		76DC182D281F37FD00A46A3C /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DC182B281F37FC00A46A3C /* SearchTableViewCell.xib */; };
+		76DC182E281F37FD00A46A3C /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC182C281F37FC00A46A3C /* SearchTableViewCell.swift */; };
+		76DC1830281F383100A46A3C /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC182F281F383100A46A3C /* LanguageVC.swift */; };
+		76DC1832281F388A00A46A3C /* XLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1831281F388A00A46A3C /* XLanguages.swift */; };
+		76EB460A281B2FEA00EAA3FE /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB4609281B2FEA00EAA3FE /* FilterVC.swift */; };
 		76F1B872280B3E750065C67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B871280B3E750065C67E /* AppDelegate.swift */; };
 		76F1B874280B3E750065C67E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B873280B3E750065C67E /* SceneDelegate.swift */; };
 		76F1B876280B3E750065C67E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B875280B3E750065C67E /* ViewController.swift */; };
@@ -16,6 +57,21 @@
 		76F1B889280B3E7A0065C67E /* Strix_RealEstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B888280B3E7A0065C67E /* Strix_RealEstateTests.swift */; };
 		76F1B893280B3E7A0065C67E /* Strix_RealEstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B892280B3E7A0065C67E /* Strix_RealEstateUITests.swift */; };
 		76F1B895280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B894280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift */; };
+		76F1B8AA280B401D0065C67E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8A9280B401D0065C67E /* HomeVC.swift */; };
+		76F1B8AC280B402D0065C67E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8AB280B402D0065C67E /* SearchVC.swift */; };
+		76F1B8AE280B403B0065C67E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8AD280B403B0065C67E /* MapVC.swift */; };
+		76F1B8B0280B40570065C67E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8AF280B40570065C67E /* ProfileVC.swift */; };
+		76F1B8B2280B4BF40065C67E /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8B1280B4BF40065C67E /* classes.swift */; };
+		76F1B8B4280B54310065C67E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8B3280B54310065C67E /* LoginVC.swift */; };
+		7DB464EB286CD76600FFF089 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76DEE667283577CE007DE95E /* GoogleService-Info.plist */; };
+		7DB464F3286CD9B400FFF089 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB464F2286CD9B400FFF089 /* NotificationService.swift */; };
+		7DB464F7286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7DB464F0286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7DD977BD2870ED5D00FC35AC /* CheckInternetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD977BC2870ED5D00FC35AC /* CheckInternetVc.swift */; };
+		7DF6722A288D9B8A009E6281 /* rudawregular2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF67229288D9B53009E6281 /* rudawregular2.ttf */; };
+		9CC9B6929ACA71EECB1D735E /* Pods_Strix_RealEstate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC350F5239C3529B98D1F10 /* Pods_Strix_RealEstate.framework */; };
+		9D0C6E3CAF09AC86979E7C3A /* Pods_Strix_RealEstateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB1347C6DF22960F099280C /* Pods_Strix_RealEstateTests.framework */; };
+		DCAE7FDE4E5485159EA00CB4 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A735FE13341CD95F4EF1420 /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		F0F54E66249F7E5792537CE3 /* Pods_Strix_RealEstate_Strix_RealEstateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9416E194ABF4F37207D76E9E /* Pods_Strix_RealEstate_Strix_RealEstateUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +89,76 @@
 			remoteGlobalIDString = 76F1B86D280B3E750065C67E;
 			remoteInfo = "Strix RealEstate";
 		};
+		7DB464F5286CD9B400FFF089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F1B866280B3E750065C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB464EF286CD9B400FFF089;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7DB464E5286CC96600FFF089 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7DB464F7286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04FAB610D6FED57EECFF8BAA /* Pods-Strix RealEstateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstateTests.debug.xcconfig"; path = "Target Support Files/Pods-Strix RealEstateTests/Pods-Strix RealEstateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EB1347C6DF22960F099280C /* Pods_Strix_RealEstateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strix_RealEstateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182EE39F60A5C90DD9120A5A /* Pods-Strix RealEstate-Strix RealEstateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstate-Strix RealEstateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Strix RealEstate-Strix RealEstateUITests/Pods-Strix RealEstate-Strix RealEstateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2191678F175428C1AA8B7517 /* Pods-Strix RealEstate-Strix RealEstateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstate-Strix RealEstateUITests.release.xcconfig"; path = "Target Support Files/Pods-Strix RealEstate-Strix RealEstateUITests/Pods-Strix RealEstate-Strix RealEstateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7618C011284003C900D09EF1 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7618C012284003C900D09EF1 /* DetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		76485B1F28229C2B00373CAB /* ProjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectVC.swift; path = AdminPanle/ProjectVC.swift; sourceTree = "<group>"; };
+		764FF0E528296B6E00DD81B3 /* EstateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EstateProfileVC.swift; path = AdminPanle/EstateProfileVC.swift; sourceTree = "<group>"; };
+		766443A9280C94D800B7097E /* VerifyingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyingVC.swift; sourceTree = "<group>"; };
+		766443AC280CA92800B7097E /* ZoneCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneCollectionViewCell.swift; sourceTree = "<group>"; };
+		766443AD280CA92900B7097E /* ZoneCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoneCollectionViewCell.xib; sourceTree = "<group>"; };
+		766443B1280DA30E00B7097E /* AllEstatesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllEstatesCollectionViewCell.xib; sourceTree = "<group>"; };
+		766443B2280DA30E00B7097E /* AllEstatesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEstatesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7676E69D284FF1F600CE4102 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		7684F4022814997000330925 /* HomeProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		7684F4032814997000330925 /* HomeProjectCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeProjectCollectionViewCell.xib; sourceTree = "<group>"; };
+		768F5EEB2842A5390008147A /* AZSocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZSocialButton.swift; sourceTree = "<group>"; };
+		769BDEA1283961210032459C /* SelectProjectorZoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProjectorZoneVC.swift; sourceTree = "<group>"; };
+		769BDEA3283967450032459C /* XUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XUpload.swift; sourceTree = "<group>"; };
+		769FF14F28213E2800ED9AF7 /* MyPropertiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPropertiesVC.swift; sourceTree = "<group>"; };
+		76A5E3402833E32E0031314D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		76B8DB5E284BC9DB00F53CCF /* AboutUsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVc.swift; sourceTree = "<group>"; };
+		76B8DB60284BDCB100F53CCF /* AllEstatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEstatesVC.swift; sourceTree = "<group>"; };
+		76C0E3352815DEFE005DD564 /* SearchProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		76C0E3362815DEFE005DD564 /* SearchProjectCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchProjectCollectionViewCell.xib; sourceTree = "<group>"; };
+		76C16C3328284F7E00D77BEA /* AddPropertiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertiesVC.swift; sourceTree = "<group>"; };
+		76C16C362828544B00D77BEA /* PropertiesImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		76C16C372828544B00D77BEA /* PropertiesImagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertiesImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		76C19A052826F52E0024DBBF /* EstateSheetViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EstateSheetViewVC.swift; path = AdminPanle/EstateSheetViewVC.swift; sourceTree = "<group>"; };
+		76C32D312849247500BA8BA7 /* EnterNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameVC.swift; sourceTree = "<group>"; };
+		76CA876428217F660010C410 /* MyPropertiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPropertiesTableViewCell.swift; sourceTree = "<group>"; };
+		76CA876528217F660010C410 /* MyPropertiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPropertiesTableViewCell.xib; sourceTree = "<group>"; };
+		76CA876828218B290010C410 /* SavedVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVCViewController.swift; sourceTree = "<group>"; };
+		76CA876A28218D3F0010C410 /* ZoneAllProjectsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneAllProjectsVc.swift; sourceTree = "<group>"; };
+		76CA876D2821912A0010C410 /* AllProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		76CA876E2821912A0010C410 /* AllProjectsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllProjectsTableViewCell.xib; sourceTree = "<group>"; };
+		76CA8771282196710010C410 /* GoToSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoToSearchVC.swift; path = AdminPanle/GoToSearchVC.swift; sourceTree = "<group>"; };
+		76D0A147283D3D6F00B5CB96 /* SelectionMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectionMapVC.swift; path = AdminPanle/SelectionMapVC.swift; sourceTree = "<group>"; };
+		76D0A149283D639F00B5CB96 /* SavedEstateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SavedEstateVC.swift; path = AdminPanle/SavedEstateVC.swift; sourceTree = "<group>"; };
+		76DC1823281F343B00A46A3C /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		76DC182B281F37FC00A46A3C /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		76DC182C281F37FC00A46A3C /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		76DC182F281F383100A46A3C /* LanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
+		76DC1831281F388A00A46A3C /* XLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLanguages.swift; sourceTree = "<group>"; };
+		76DEE667283577CE007DE95E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76EB4609281B2FEA00EAA3FE /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		76F1B86E280B3E750065C67E /* Strix RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strix RealEstate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F1B871280B3E750065C67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F1B873280B3E750065C67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +172,26 @@
 		76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strix RealEstateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F1B892280B3E7A0065C67E /* Strix_RealEstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strix_RealEstateUITests.swift; sourceTree = "<group>"; };
 		76F1B894280B3E7A0065C67E /* Strix_RealEstateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strix_RealEstateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76F1B8A9280B401D0065C67E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		76F1B8AB280B402D0065C67E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		76F1B8AD280B403B0065C67E /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		76F1B8AF280B40570065C67E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		76F1B8B1280B4BF40065C67E /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		76F1B8B3280B54310065C67E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7DB464EA286CC9CB00FFF089 /* Strix RealEstate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Strix RealEstate.entitlements"; sourceTree = "<group>"; };
+		7DB464F0286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB464F2286CD9B400FFF089 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7DB464F4286CD9B400FFF089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD977BC2870ED5D00FC35AC /* CheckInternetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternetVc.swift; sourceTree = "<group>"; };
+		7DF67229288D9B53009E6281 /* rudawregular2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rudawregular2.ttf; sourceTree = "<group>"; };
+		8A735FE13341CD95F4EF1420 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9416E194ABF4F37207D76E9E /* Pods_Strix_RealEstate_Strix_RealEstateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strix_RealEstate_Strix_RealEstateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B0922CEBE0927287C9D92 /* Pods-Strix RealEstate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstate.debug.xcconfig"; path = "Target Support Files/Pods-Strix RealEstate/Pods-Strix RealEstate.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC350F5239C3529B98D1F10 /* Pods_Strix_RealEstate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strix_RealEstate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDC1F6A21314B35067C626 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DFF303340561E49CC53AA88E /* Pods-Strix RealEstate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstate.release.xcconfig"; path = "Target Support Files/Pods-Strix RealEstate/Pods-Strix RealEstate.release.xcconfig"; sourceTree = "<group>"; };
+		E29E63A4B014E86F34F97081 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		E83910F60D84CC16BEDDA538 /* Pods-Strix RealEstateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strix RealEstateTests.release.xcconfig"; path = "Target Support Files/Pods-Strix RealEstateTests/Pods-Strix RealEstateTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC9B6929ACA71EECB1D735E /* Pods_Strix_RealEstate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0C6E3CAF09AC86979E7C3A /* Pods_Strix_RealEstateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +215,112 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F54E66249F7E5792537CE3 /* Pods_Strix_RealEstate_Strix_RealEstateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB464ED286CD9B400FFF089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE7FDE4E5485159EA00CB4 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7618C00E2840030C00D09EF1 /* DetailsCollectionViewcell */ = {
+			isa = PBXGroup;
+			children = (
+				7618C011284003C900D09EF1 /* DetailsCollectionViewCell.swift */,
+				7618C012284003C900D09EF1 /* DetailsCollectionViewCell.xib */,
+			);
+			path = DetailsCollectionViewcell;
+			sourceTree = "<group>";
+		};
+		766443AB280CA8B200B7097E /* ZoneCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				766443AC280CA92800B7097E /* ZoneCollectionViewCell.swift */,
+				766443AD280CA92900B7097E /* ZoneCollectionViewCell.xib */,
+			);
+			path = ZoneCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		766443B0280DA2F300B7097E /* AllEstatesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				766443B2280DA30E00B7097E /* AllEstatesCollectionViewCell.swift */,
+				766443B1280DA30E00B7097E /* AllEstatesCollectionViewCell.xib */,
+			);
+			path = AllEstatesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7684F4002814995E00330925 /* HomeProjectCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7684F4022814997000330925 /* HomeProjectCollectionViewCell.swift */,
+				7684F4032814997000330925 /* HomeProjectCollectionViewCell.xib */,
+			);
+			path = HomeProjectCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		769FF15128217E7500ED9AF7 /* MyPropertiesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76CA876428217F660010C410 /* MyPropertiesTableViewCell.swift */,
+				76CA876528217F660010C410 /* MyPropertiesTableViewCell.xib */,
+			);
+			path = MyPropertiesTableViewCell;
+			sourceTree = "<group>";
+		};
+		76C0E3342815DEE4005DD564 /* SearchProjectCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76C0E3352815DEFE005DD564 /* SearchProjectCollectionViewCell.swift */,
+				76C0E3362815DEFE005DD564 /* SearchProjectCollectionViewCell.xib */,
+			);
+			path = SearchProjectCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		76C16C352828542500D77BEA /* PropertiesImagesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76C16C362828544B00D77BEA /* PropertiesImagesCollectionViewCell.swift */,
+				76C16C372828544B00D77BEA /* PropertiesImagesCollectionViewCell.xib */,
+			);
+			path = PropertiesImagesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		76CA876C282190FA0010C410 /* AllProjectsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76CA876D2821912A0010C410 /* AllProjectsTableViewCell.swift */,
+				76CA876E2821912A0010C410 /* AllProjectsTableViewCell.xib */,
+			);
+			path = AllProjectsTableViewCell;
+			sourceTree = "<group>";
+		};
+		76DC182A281F37D500A46A3C /* SearchTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76DC182C281F37FC00A46A3C /* SearchTableViewCell.swift */,
+				76DC182B281F37FC00A46A3C /* SearchTableViewCell.xib */,
+			);
+			path = SearchTableViewCell;
+			sourceTree = "<group>";
+		};
 		76F1B865280B3E750065C67E = {
 			isa = PBXGroup;
 			children = (
 				76F1B870280B3E750065C67E /* Strix RealEstate */,
 				76F1B887280B3E7A0065C67E /* Strix RealEstateTests */,
 				76F1B891280B3E7A0065C67E /* Strix RealEstateUITests */,
+				7DB464F1286CD9B400FFF089 /* OneSignalNotificationServiceExtension */,
 				76F1B86F280B3E750065C67E /* Products */,
+				7965B94369DACD1A6EF4FEAF /* Pods */,
+				9E6A06F7B0E93F567C617329 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +330,7 @@
 				76F1B86E280B3E750065C67E /* Strix RealEstate.app */,
 				76F1B884280B3E7A0065C67E /* Strix RealEstateTests.xctest */,
 				76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */,
+				7DB464F0286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +338,18 @@
 		76F1B870280B3E750065C67E /* Strix RealEstate */ = {
 			isa = PBXGroup;
 			children = (
+				7DB464EA286CC9CB00FFF089 /* Strix RealEstate.entitlements */,
+				76F1B8A5280B3F5C0065C67E /* UICollectionViewCell */,
+				76F1B8A4280B3F420065C67E /* UITableViewCell */,
+				76F1B8A2280B3F270065C67E /* Objects */,
+				76F1B8A1280B3F1C0065C67E /* VCs */,
 				76F1B871280B3E750065C67E /* AppDelegate.swift */,
 				76F1B873280B3E750065C67E /* SceneDelegate.swift */,
+				7DF67228288D9B3F009E6281 /* fonts */,
 				76F1B875280B3E750065C67E /* ViewController.swift */,
 				76F1B877280B3E750065C67E /* Main.storyboard */,
 				76F1B87A280B3E790065C67E /* Assets.xcassets */,
+				76DEE667283577CE007DE95E /* GoogleService-Info.plist */,
 				76F1B87C280B3E790065C67E /* LaunchScreen.storyboard */,
 				76F1B87F280B3E790065C67E /* Info.plist */,
 			);
@@ -127,6 +373,132 @@
 			path = "Strix RealEstateUITests";
 			sourceTree = "<group>";
 		};
+		76F1B8A1280B3F1C0065C67E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B8A8280B3F8D0065C67E /* AuthenticationVCs */,
+				76F1B8A7280B3F7F0065C67E /* AdminPanle */,
+				76F1B8A9280B401D0065C67E /* HomeVC.swift */,
+				76EB4609281B2FEA00EAA3FE /* FilterVC.swift */,
+				76F1B8AB280B402D0065C67E /* SearchVC.swift */,
+				76F1B8AD280B403B0065C67E /* MapVC.swift */,
+				76F1B8AF280B40570065C67E /* ProfileVC.swift */,
+				76CA876A28218D3F0010C410 /* ZoneAllProjectsVc.swift */,
+				76CA8771282196710010C410 /* GoToSearchVC.swift */,
+				76485B1F28229C2B00373CAB /* ProjectVC.swift */,
+				76C19A052826F52E0024DBBF /* EstateSheetViewVC.swift */,
+				764FF0E528296B6E00DD81B3 /* EstateProfileVC.swift */,
+				76D0A147283D3D6F00B5CB96 /* SelectionMapVC.swift */,
+				76D0A149283D639F00B5CB96 /* SavedEstateVC.swift */,
+				76B8DB5E284BC9DB00F53CCF /* AboutUsVc.swift */,
+				76B8DB60284BDCB100F53CCF /* AllEstatesVC.swift */,
+				7676E69D284FF1F600CE4102 /* TabBarVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		76F1B8A2280B3F270065C67E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				76A5E3402833E32E0031314D /* API.swift */,
+				76F1B8B1280B4BF40065C67E /* classes.swift */,
+				768F5EEB2842A5390008147A /* AZSocialButton.swift */,
+				76DC1831281F388A00A46A3C /* XLanguages.swift */,
+				769BDEA3283967450032459C /* XUpload.swift */,
+				7DD977BC2870ED5D00FC35AC /* CheckInternetVc.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		76F1B8A4280B3F420065C67E /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76CA876C282190FA0010C410 /* AllProjectsTableViewCell */,
+				769FF15128217E7500ED9AF7 /* MyPropertiesTableViewCell */,
+				76DC182A281F37D500A46A3C /* SearchTableViewCell */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		76F1B8A5280B3F5C0065C67E /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7618C00E2840030C00D09EF1 /* DetailsCollectionViewcell */,
+				76C16C352828542500D77BEA /* PropertiesImagesCollectionViewCell */,
+				76C0E3342815DEE4005DD564 /* SearchProjectCollectionViewCell */,
+				7684F4002814995E00330925 /* HomeProjectCollectionViewCell */,
+				766443B0280DA2F300B7097E /* AllEstatesCollectionViewCell */,
+				766443AB280CA8B200B7097E /* ZoneCollectionViewCell */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		76F1B8A7280B3F7F0065C67E /* AdminPanle */ = {
+			isa = PBXGroup;
+			children = (
+				76DC1823281F343B00A46A3C /* MyProfileVC.swift */,
+				76DC182F281F383100A46A3C /* LanguageVC.swift */,
+				769FF14F28213E2800ED9AF7 /* MyPropertiesVC.swift */,
+				76CA876828218B290010C410 /* SavedVCViewController.swift */,
+				76C16C3328284F7E00D77BEA /* AddPropertiesVC.swift */,
+				769BDEA1283961210032459C /* SelectProjectorZoneVC.swift */,
+			);
+			path = AdminPanle;
+			sourceTree = "<group>";
+		};
+		76F1B8A8280B3F8D0065C67E /* AuthenticationVCs */ = {
+			isa = PBXGroup;
+			children = (
+				766443A9280C94D800B7097E /* VerifyingVC.swift */,
+				76F1B8B3280B54310065C67E /* LoginVC.swift */,
+				76C32D312849247500BA8BA7 /* EnterNameVC.swift */,
+			);
+			path = AuthenticationVCs;
+			sourceTree = "<group>";
+		};
+		7965B94369DACD1A6EF4FEAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0922CEBE0927287C9D92 /* Pods-Strix RealEstate.debug.xcconfig */,
+				DFF303340561E49CC53AA88E /* Pods-Strix RealEstate.release.xcconfig */,
+				182EE39F60A5C90DD9120A5A /* Pods-Strix RealEstate-Strix RealEstateUITests.debug.xcconfig */,
+				2191678F175428C1AA8B7517 /* Pods-Strix RealEstate-Strix RealEstateUITests.release.xcconfig */,
+				04FAB610D6FED57EECFF8BAA /* Pods-Strix RealEstateTests.debug.xcconfig */,
+				E83910F60D84CC16BEDDA538 /* Pods-Strix RealEstateTests.release.xcconfig */,
+				E29E63A4B014E86F34F97081 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				D3BDC1F6A21314B35067C626 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DB464F1286CD9B400FFF089 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7DB464F2286CD9B400FFF089 /* NotificationService.swift */,
+				7DB464F4286CD9B400FFF089 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		7DF67228288D9B3F009E6281 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DF67229288D9B53009E6281 /* rudawregular2.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		9E6A06F7B0E93F567C617329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC350F5239C3529B98D1F10 /* Pods_Strix_RealEstate.framework */,
+				9416E194ABF4F37207D76E9E /* Pods_Strix_RealEstate_Strix_RealEstateUITests.framework */,
+				0EB1347C6DF22960F099280C /* Pods_Strix_RealEstateTests.framework */,
+				8A735FE13341CD95F4EF1420 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,13 +506,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F1B898280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstate" */;
 			buildPhases = (
+				04B0D062064CB806BC40C4E4 /* [CP] Check Pods Manifest.lock */,
 				76F1B86A280B3E750065C67E /* Sources */,
 				76F1B86B280B3E750065C67E /* Frameworks */,
 				76F1B86C280B3E750065C67E /* Resources */,
+				B83A1428366AB3257E2B8D50 /* [CP] Embed Pods Frameworks */,
+				7DB464E5286CC96600FFF089 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7DB464F6286CD9B400FFF089 /* PBXTargetDependency */,
 			);
 			name = "Strix RealEstate";
 			productName = "Strix RealEstate";
@@ -151,6 +527,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F1B89B280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateTests" */;
 			buildPhases = (
+				771601EE8DB86536812613F8 /* [CP] Check Pods Manifest.lock */,
 				76F1B880280B3E7A0065C67E /* Sources */,
 				76F1B881280B3E7A0065C67E /* Frameworks */,
 				76F1B882280B3E7A0065C67E /* Resources */,
@@ -169,9 +546,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F1B89E280B3E7A0065C67E /* Build configuration list for PBXNativeTarget "Strix RealEstateUITests" */;
 			buildPhases = (
+				98B28781A27DCD9B9AE050EB /* [CP] Check Pods Manifest.lock */,
 				76F1B88A280B3E7A0065C67E /* Sources */,
 				76F1B88B280B3E7A0065C67E /* Frameworks */,
 				76F1B88C280B3E7A0065C67E /* Resources */,
+				4B713CD0A66B1DE8BF067BC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +562,24 @@
 			productReference = 76F1B88E280B3E7A0065C67E /* Strix RealEstateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7DB464EF286CD9B400FFF089 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB464F8286CD9B400FFF089 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				7D2999B134AD5F844A935C45 /* [CP] Check Pods Manifest.lock */,
+				7DB464EC286CD9B400FFF089 /* Sources */,
+				7DB464ED286CD9B400FFF089 /* Frameworks */,
+				7DB464EE286CD9B400FFF089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 7DB464F0286CD9B400FFF089 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,7 +587,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					76F1B86D280B3E750065C67E = {
@@ -203,6 +600,9 @@
 					76F1B88D280B3E7A0065C67E = {
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = 76F1B86D280B3E750065C67E;
+					};
+					7DB464EF286CD9B400FFF089 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -222,6 +622,7 @@
 				76F1B86D280B3E750065C67E /* Strix RealEstate */,
 				76F1B883280B3E7A0065C67E /* Strix RealEstateTests */,
 				76F1B88D280B3E7A0065C67E /* Strix RealEstateUITests */,
+				7DB464EF286CD9B400FFF089 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -231,9 +632,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB464EB286CD76600FFF089 /* GoogleService-Info.plist in Resources */,
+				76C0E3382815DEFE005DD564 /* SearchProjectCollectionViewCell.xib in Resources */,
+				76DC182D281F37FD00A46A3C /* SearchTableViewCell.xib in Resources */,
+				766443AF280CA92900B7097E /* ZoneCollectionViewCell.xib in Resources */,
+				76C16C392828544B00D77BEA /* PropertiesImagesCollectionViewCell.xib in Resources */,
+				76CA87702821912A0010C410 /* AllProjectsTableViewCell.xib in Resources */,
+				76CA876728217F660010C410 /* MyPropertiesTableViewCell.xib in Resources */,
 				76F1B87E280B3E790065C67E /* LaunchScreen.storyboard in Resources */,
+				7618C014284003C900D09EF1 /* DetailsCollectionViewCell.xib in Resources */,
+				766443B3280DA30E00B7097E /* AllEstatesCollectionViewCell.xib in Resources */,
 				76F1B87B280B3E790065C67E /* Assets.xcassets in Resources */,
 				76F1B879280B3E750065C67E /* Main.storyboard in Resources */,
+				7DF6722A288D9B8A009E6281 /* rudawregular2.ttf in Resources */,
+				7684F4052814997000330925 /* HomeProjectCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,16 +663,187 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DB464EE286CD9B400FFF089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B0D062064CB806BC40C4E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strix RealEstate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B713CD0A66B1DE8BF067BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate-Strix RealEstateUITests/Pods-Strix RealEstate-Strix RealEstateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate-Strix RealEstateUITests/Pods-Strix RealEstate-Strix RealEstateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate-Strix RealEstateUITests/Pods-Strix RealEstate-Strix RealEstateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771601EE8DB86536812613F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strix RealEstateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2999B134AD5F844A935C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B28781A27DCD9B9AE050EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strix RealEstate-Strix RealEstateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83A1428366AB3257E2B8D50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate/Pods-Strix RealEstate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate/Pods-Strix RealEstate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Strix RealEstate/Pods-Strix RealEstate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76F1B86A280B3E750065C67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B8DB61284BDCB100F53CCF /* AllEstatesVC.swift in Sources */,
+				76D0A14A283D639F00B5CB96 /* SavedEstateVC.swift in Sources */,
+				76EB460A281B2FEA00EAA3FE /* FilterVC.swift in Sources */,
+				76CA876628217F660010C410 /* MyPropertiesTableViewCell.swift in Sources */,
+				76DC1832281F388A00A46A3C /* XLanguages.swift in Sources */,
+				76C32D322849247500BA8BA7 /* EnterNameVC.swift in Sources */,
+				7DD977BD2870ED5D00FC35AC /* CheckInternetVc.swift in Sources */,
+				769BDEA2283961210032459C /* SelectProjectorZoneVC.swift in Sources */,
+				76CA8772282196710010C410 /* GoToSearchVC.swift in Sources */,
+				764FF0E628296B6E00DD81B3 /* EstateProfileVC.swift in Sources */,
 				76F1B876280B3E750065C67E /* ViewController.swift in Sources */,
+				769FF15028213E2800ED9AF7 /* MyPropertiesVC.swift in Sources */,
+				76DC1830281F383100A46A3C /* LanguageVC.swift in Sources */,
+				76F1B8AE280B403B0065C67E /* MapVC.swift in Sources */,
+				76CA876F2821912A0010C410 /* AllProjectsTableViewCell.swift in Sources */,
+				76C0E3372815DEFE005DD564 /* SearchProjectCollectionViewCell.swift in Sources */,
+				76F1B8B0280B40570065C67E /* ProfileVC.swift in Sources */,
+				76C16C3428284F7E00D77BEA /* AddPropertiesVC.swift in Sources */,
+				76C16C382828544B00D77BEA /* PropertiesImagesCollectionViewCell.swift in Sources */,
+				76CA876B28218D3F0010C410 /* ZoneAllProjectsVc.swift in Sources */,
+				76F1B8AC280B402D0065C67E /* SearchVC.swift in Sources */,
+				76F1B8AA280B401D0065C67E /* HomeVC.swift in Sources */,
+				76F1B8B4280B54310065C67E /* LoginVC.swift in Sources */,
+				7676E69E284FF1F600CE4102 /* TabBarVC.swift in Sources */,
+				766443AA280C94D800B7097E /* VerifyingVC.swift in Sources */,
 				76F1B872280B3E750065C67E /* AppDelegate.swift in Sources */,
+				7684F4042814997000330925 /* HomeProjectCollectionViewCell.swift in Sources */,
+				7618C013284003C900D09EF1 /* DetailsCollectionViewCell.swift in Sources */,
+				76DC182E281F37FD00A46A3C /* SearchTableViewCell.swift in Sources */,
+				76C19A062826F52E0024DBBF /* EstateSheetViewVC.swift in Sources */,
+				76A5E3412833E32E0031314D /* API.swift in Sources */,
+				766443B4280DA30E00B7097E /* AllEstatesCollectionViewCell.swift in Sources */,
+				76D0A148283D3D6F00B5CB96 /* SelectionMapVC.swift in Sources */,
+				76B8DB5F284BC9DB00F53CCF /* AboutUsVc.swift in Sources */,
+				76CA876928218B290010C410 /* SavedVCViewController.swift in Sources */,
+				768F5EEC2842A5390008147A /* AZSocialButton.swift in Sources */,
+				76DC1824281F343B00A46A3C /* MyProfileVC.swift in Sources */,
+				76485B2028229C2B00373CAB /* ProjectVC.swift in Sources */,
+				76F1B8B2280B4BF40065C67E /* classes.swift in Sources */,
+				766443AE280CA92900B7097E /* ZoneCollectionViewCell.swift in Sources */,
 				76F1B874280B3E750065C67E /* SceneDelegate.swift in Sources */,
+				769BDEA4283967450032459C /* XUpload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +864,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DB464EC286CD9B400FFF089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB464F3286CD9B400FFF089 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +884,11 @@
 			isa = PBXTargetDependency;
 			target = 76F1B86D280B3E750065C67E /* Strix RealEstate */;
 			targetProxy = 76F1B88F280B3E7A0065C67E /* PBXContainerItemProxy */;
+		};
+		7DB464F6286CD9B400FFF089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB464EF286CD9B400FFF089 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 7DB464F5286CD9B400FFF089 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +962,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +1016,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,25 +1028,38 @@
 		};
 		76F1B899280B3E7A0065C67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0B0922CEBE0927287C9D92 /* Pods-Strix RealEstate.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Strix RealEstate/Strix RealEstate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = LSB7R4D9XA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Strix RealEstate/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Strix;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Strix RealEstate need to access your camera";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to find the nearest apartments from your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to find the nearest apartments from your location.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Strix RealEstate need to access your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstate";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,25 +1069,38 @@
 		};
 		76F1B89A280B3E7A0065C67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF303340561E49CC53AA88E /* Pods-Strix RealEstate.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Strix RealEstate/Strix RealEstate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = LSB7R4D9XA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Strix RealEstate/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Strix;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Strix RealEstate need to access your camera";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to find the nearest apartments from your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to find the nearest apartments from your location.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Strix RealEstate need to access your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.Strix-RealEstate";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +1110,7 @@
 		};
 		76F1B89C280B3E7A0065C67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FAB610D6FED57EECFF8BAA /* Pods-Strix RealEstateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1131,7 @@
 		};
 		76F1B89D280B3E7A0065C67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83910F60D84CC16BEDDA538 /* Pods-Strix RealEstateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1152,7 @@
 		};
 		76F1B89F280B3E7A0065C67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182EE39F60A5C90DD9120A5A /* Pods-Strix RealEstate-Strix RealEstateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1171,7 @@
 		};
 		76F1B8A0280B3E7A0065C67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2191678F175428C1AA8B7517 /* Pods-Strix RealEstate-Strix RealEstateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +1185,60 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Strix RealEstate";
+			};
+			name = Release;
+		};
+		7DB464F9286CD9B400FFF089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29E63A4B014E86F34F97081 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB464FA286CD9B400FFF089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BDC1F6A21314B35067C626 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = LSB7R4D9XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strix-shark-team.realestate.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -597,6 +1277,15 @@
 			buildConfigurations = (
 				76F1B89F280B3E7A0065C67E /* Debug */,
 				76F1B8A0280B3E7A0065C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB464F8286CD9B400FFF089 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB464F9286CD9B400FFF089 /* Debug */,
+				7DB464FA286CD9B400FFF089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

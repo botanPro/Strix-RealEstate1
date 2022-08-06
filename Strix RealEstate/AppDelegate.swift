@@ -6,16 +6,48 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import OneSignal
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if UserDefaults.standard.integer(forKey: "Lang") == 0{
+            XLanguage.set(Language: .Kurdish)
+            UserDefaults.standard.set(3,forKey: "Lang")
+        }
+        
+        OneSignal.setLogLevel(.LL_VERBOSE, visualLevel: .LL_NONE)
+        OneSignal.initWithLaunchOptions(launchOptions)
+        OneSignal.setAppId("3801c3ed-1732-4d10-9910-633ea78d617e")
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+            UserDefaults.standard.set(OneSignal.getDeviceState().userId ?? "", forKey: "OneSignalId")
+          })
+        
+        
+        
+        
+        FirebaseApp.configure()
         return true
     }
+    
+     func onOSSubscriptionChanged(_ stateChanges: OSSubscriptionStateChanges) {
+        if !stateChanges.from.isSubscribed && stateChanges.to.isSubscribed {
+            print("Subscribed for OneSignal push notifications!")
+        }
+        print("SubscriptionStateChange: \n\(String(describing: stateChanges))")
+        
+        if let playerId = stateChanges.to.userId {
+            print("Current playerId \(playerId)")
+            UserDefaults.standard.set(playerId, forKey: "OneSignalId")
+        }
+    }
+    
 
     // MARK: UISceneSession Lifecycle
 

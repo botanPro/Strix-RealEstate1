@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="rudawregular2.ttf">
+            <string>RudawRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="KGk-i7-Jjw" customClass="AllProjectsTableViewCell" customModule="Strix_RealEstate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="KNp-q1-OZu">
+                        <rect key="frame" x="4" y="4" width="329" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="jff-nj-lkR"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NH4-hm-HEp" customClass="GradientView" customModule="Strix_RealEstate" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="329" height="160"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lalav Towers Duhok Zansty" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oai-Af-dws">
+                                <rect key="frame" x="10" y="114.5" width="309" height="23.5"/>
+                                <fontDescription key="fontDescription" name="RudawRegular" family="RudawRegular" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baroshke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5D-D9-r4k">
+                                <rect key="frame" x="10" y="140" width="309" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="KZo-p1-UXS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RudawRegular" family="RudawRegular" pointSize="11"/>
+                                <color key="textColor" red="0.89621064159999997" green="0.89621064159999997" blue="0.89621064159999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="M5D-D9-r4k" secondAttribute="trailing" constant="10" id="5UQ-Ah-9cl"/>
+                            <constraint firstAttribute="bottom" secondItem="M5D-D9-r4k" secondAttribute="bottom" constant="8" id="9ba-95-nB3"/>
+                            <constraint firstItem="oai-Af-dws" firstAttribute="leading" secondItem="NH4-hm-HEp" secondAttribute="leading" constant="10" id="EPf-bJ-OoH"/>
+                            <constraint firstItem="M5D-D9-r4k" firstAttribute="top" secondItem="oai-Af-dws" secondAttribute="bottom" constant="2" id="Iw1-vl-2Jt"/>
+                            <constraint firstItem="M5D-D9-r4k" firstAttribute="leading" secondItem="NH4-hm-HEp" secondAttribute="leading" constant="10" id="Pgw-WE-kxf"/>
+                            <constraint firstAttribute="trailing" secondItem="oai-Af-dws" secondAttribute="trailing" constant="10" id="b0d-xI-f1M"/>
+                            <constraint firstAttribute="height" constant="160" id="d2U-3l-QIu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.33824764800000001" green="0.36810522530000001" blue="0.41368950739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93127919209999999" green="0.93127919209999999" blue="0.93127919209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="KNp-q1-OZu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="3Ue-aD-123"/>
+                    <constraint firstItem="NH4-hm-HEp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="Mch-da-vSL"/>
+                    <constraint firstItem="NH4-hm-HEp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="YIX-ZH-PTc"/>
+                    <constraint firstItem="KNp-q1-OZu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="mrU-59-v5H"/>
+                    <constraint firstAttribute="trailing" secondItem="KNp-q1-OZu" secondAttribute="trailing" constant="4" id="ua3-1E-dXG"/>
+                    <constraint firstAttribute="bottom" secondItem="NH4-hm-HEp" secondAttribute="bottom" constant="4" id="v7I-xJ-Iyo"/>
+                    <constraint firstAttribute="bottom" secondItem="KNp-q1-OZu" secondAttribute="bottom" constant="4" id="yBt-IQ-bDR"/>
+                    <constraint firstAttribute="trailing" secondItem="NH4-hm-HEp" secondAttribute="trailing" constant="4" id="yGg-D6-6Jz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Imagee" destination="KNp-q1-OZu" id="wBz-ne-1Of"/>
+                <outlet property="Name" destination="oai-Af-dws" id="sh2-WW-AbP"/>
+                <outlet property="OverView" destination="NH4-hm-HEp" id="H0L-w8-diS"/>
+                <outlet property="Zone" destination="M5D-D9-r4k" id="l7T-Kt-Vpv"/>
+            </connections>
+            <point key="canvasLocation" x="144.20289855072465" y="155.35714285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="1600" height="1068"/>
+    </resources>
+</document>

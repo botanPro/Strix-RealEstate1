@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PropertiesImagesCollectionViewCell" customModule="Strix_RealEstate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="176"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UAO-x9-vRz">
+                        <rect key="frame" x="0.0" y="0.0" width="135" height="176"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="176" id="Dvs-kJ-Toh"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <integer key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jx8-Cz-mSw">
+                        <rect key="frame" x="110" y="0.0" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="GEC-Td-Bpt"/>
+                            <constraint firstAttribute="width" constant="25" id="NCp-fu-0qq"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="vuesax-linear-close-circle"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UAO-x9-vRz" secondAttribute="trailing" id="3pP-hE-ACK"/>
+                <constraint firstItem="UAO-x9-vRz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="D5e-Ot-ekG"/>
+                <constraint firstItem="jx8-Cz-mSw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aQc-8B-t8b"/>
+                <constraint firstAttribute="trailing" secondItem="jx8-Cz-mSw" secondAttribute="trailing" id="abE-mz-MlB"/>
+                <constraint firstAttribute="bottom" secondItem="UAO-x9-vRz" secondAttribute="bottom" id="u2D-d7-smH"/>
+                <constraint firstItem="UAO-x9-vRz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wfK-IK-Qhw"/>
+            </constraints>
+            <size key="customSize" width="135" height="176"/>
+            <connections>
+                <outlet property="Delete" destination="jx8-Cz-mSw" id="bC5-8r-Uca"/>
+                <outlet property="Imagee" destination="UAO-x9-vRz" id="aRj-LA-D4C"/>
+            </connections>
+            <point key="canvasLocation" x="193.47826086956522" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="vuesax-linear-close-circle" width="24" height="25"/>
+    </resources>
+</document>

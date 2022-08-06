@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1096376217432-a667k413qfer1jecghn9cklgfjoekp5n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1096376217432-a667k413qfer1jecghn9cklgfjoekp5n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC7WuXzJCdmR4owjSKeaYlopAChosKWzyU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1096376217432</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.strix-shark-team.realestate</string>
+	<key>PROJECT_ID</key>
+	<string>strix-3959f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>strix-3959f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1096376217432:ios:74e8798a13a4444c007f2d</string>
+</dict>
+</plist>
